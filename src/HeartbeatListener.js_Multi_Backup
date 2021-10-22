@@ -1,0 +1,31 @@
+const http = require("http");
+
+class HeartbeatListener {
+	constructor() {
+		this.events = new Map();
+		this.server = http.createServer();
+		this.isListening = false;
+	}
+
+	on(eventName, callback) {
+		if (this.isListening) throw new Error("Join event before listening!");
+		this.events.set(eventName, callback);
+	}
+
+	listen(port) {
+		this.server.listen(port, () => {
+			console.log("Listening Heartbeat!");
+			this.isListening = true;
+		});
+
+		this.server.on("request", (req, res) => {
+			this.bump(req, res);
+		});
+	}
+
+	bump(req, res) {
+		
+	}
+}
+
+module.exports = HeartbeatListener;

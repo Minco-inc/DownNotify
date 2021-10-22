@@ -1,0 +1,30 @@
+{
+  "name": "downnotify",
+  "version": "1.0.0",
+  "description": "Notify server down!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MincoMK/DownNotify.git"
+  },
+  "keywords": [
+    "down",
+    "notify",
+    "disnotify",
+    "discord",
+    "bot",
+    "server"
+  ],
+  "author": "Minco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MincoMK/DownNotify/issues"
+  },
+  "homepage": "https://github.com/MincoMK/DownNotify#readme",
+  "dependencies": {
+    "http": "^0.0.1-security"
+  }
+}
