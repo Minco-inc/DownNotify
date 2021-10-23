@@ -1,0 +1,6 @@
+{
+    "name": "DownNotify",
+    "description": "Notify server down!",
+    "icon": "icon.jpg",
+    "main": "index.php"
+}
