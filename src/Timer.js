@@ -1,18 +1,20 @@
 class Timer {
 	constructor() {
 		this.time = 5000;
+		this.timeout = 0;
 	}
 
 	setTime(ms) {
 		this.time = ms;	
 	}
 
-	setCallback(callback) {
+	setCallback(callback, superclass) {
 		this.callback = callback;
+		this.superclass = superclass;
 	}
 
 	start() {
-		this.timeout = setTimeout(this.callback, this.time);
+		this.timeout = setTimeout(() => this.callback(this.superclass), this.time);
 	}
 
 	stop() {

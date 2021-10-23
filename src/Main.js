@@ -11,12 +11,12 @@ class Main {
 
 	main() {
 		let hbl = new HeartbeatListener();
-		hbl.on("online", () => {
+		/*hbl.on("online", () => {
 			this.message.text = "online";
 		});
 		hbl.on("offline", () => {
 			this.message.text = "offline";
-		});
+		});*/
 		hbl.listen(53577);
 		
 		let cl = new CheckerListener(this.message);

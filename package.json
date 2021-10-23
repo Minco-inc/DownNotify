@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/MincoMK/DownNotify#readme",
   "dependencies": {
+    "disnotify": "^1.2.7",
     "http": "^0.0.1-security"
   }
 }
