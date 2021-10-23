@@ -1,0 +1,81 @@
+body {
+    background: #23272A;
+    color: #fff;
+}
+.form {
+    margin: 50px auto;
+    border-radius: 10px;
+    width: 500px;
+    padding: 30px 25px;
+    color: #fff;
+    background: #2C2F33;
+}
+h1.login-title {
+    color: #666;
+    color: #fff;
+    margin: 0px auto 25px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+.login-input {
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 25px;
+    height: 25px;
+    width: calc(100% - 23px);
+}
+.login-input:focus {
+    border-color:#6e8095;
+    color: #fff;
+    outline: none;
+}
+.login-button {
+    color: #fff;
+    background: #55a1ff;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+.link {
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0px;
+}
+a {
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0px;
+}
+a:active {
+    color: #fff;
+}
+h3 {
+    font-weight: normal;
+    color: #fff;
+    text-align: center;
+}
+.l {
+    font-family: 'Ubuntu';
+    text-decoration: none;
+    padding: 10px;
+    background-color: #7289da;
+    border-radius: 5px;
+}
+.l:hover {
+    background-color: #aab6ff;
+    color: #fff;
+}
+.l:active {
+    background-color: #616894;
+    color: #fff;
+}
