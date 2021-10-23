@@ -1,1 +1,62 @@
+/* 
+    Format : Cascading Style Sheet
+    Type : application/css
+    URL : src/css/style.css 
+*/
 
+/*
+    Stylesheet or css
+    Made by Hen2527
+    All right reserves
+*/
+
+/*
+    Copyright Colors : Discord.com
+    Colors are used : #7289DA, #2C2F33, #23272A, and other...
+*/
+
+html {
+    color: #fff;
+    background-color: #23272A; /* Background Discord Color */
+}
+
+.title {
+    text-align: center;
+    animation: 1s;
+}
+
+hr {
+    border-style: solid;
+    margin: -8px;
+}
+
+/*
+     This button is copyright by w3schools.com
+*/
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #7289da;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {
+    background-color: #9fb9ff;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button:active {
+  background-color: #7583b6;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
