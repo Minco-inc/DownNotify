@@ -5,3 +5,7 @@ Notify server down!
 # [`DownNotify UI/Dashboard`](https://github.com/Minco-inc/DownNotify/tree/ui)
 Notify online, if server is down!
 ### Made by Hen2527
+
+<h1 align=right>
+  <code><a href="https://github.com/Minco-inc/DisNotify">Powered by DisNotify!</a></code>
+</h1>
