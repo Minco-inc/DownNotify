@@ -1,2 +1,2 @@
-# DownNotify
-Notify server down!
+# `DownNotify UI`
+The UI for DownNotify `Dashboard` Page!
