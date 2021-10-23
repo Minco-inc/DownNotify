@@ -1,0 +1,103 @@
+/*
+  Made by Hen2527
+  Credit to all fonts that their made
+  src/fonts/---.ttf / .otf
+*/
+@font-face {
+    font-family: 'DiscordHeavyItalic';
+    src: url('../src/fonts/Discord Heavy Italic.otf'); 
+    format('opentype');
+}
+@font-face {
+    font-family: 'DiscordHeavy';
+    src: url('../src/fonts/Discord Heavy.otf');
+    format('opentype');
+}
+@font-face {
+    font-family: 'DiscordThin';
+    src: url('../src/fonts/Discord Thin.otf');
+    format('opentype');
+}
+@font-face {
+    font-family: 'DiscordThinItalic';
+    src: url('../src/fonts/Discord Thin Italic.otf');
+    format('opentype');
+}
+/* Minecraft Font */
+@font-face {
+    font-family: 'MinecraftTen';
+    src: url('../src/fonts/MinecraftTen.ttf');
+    format('typertype');
+}
+@font-face {
+    font-family: 'MinecraftBold';
+    src: url('../src/fonts/MinecraftBold.otf');
+    format('opentype');
+}
+@font-face {
+    font-family: 'MinecraftBoldItalic';
+    src: url('../src/fonts/Minecraft Bold Italic.otf');
+    format('opentype');
+}
+@font-face {
+    font-family: 'MinecraftItalic';
+    src: url('../src/fonts/Minecraft Italic.otf');
+    format('opentype');
+}
+@font-face {
+    font-family: 'Minecraft';
+    src: url('../src/fonts/MinecraftRegular.otf');
+    format('opentype');
+}
+/* ProFontWindows */
+@font-face {
+    font-family: 'ProFontWindows';
+    src: url('../src/fonts/ProfontWindows.ttf');
+    format('typertype');
+}
+@font-face {
+    font-family: 'ProFontWindowsBold';
+    src: url('../src/fonts/ProfontWindowsBold.ttf');
+    format('typertype');
+}
+/* Ubuntu Font */
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../src/fonts/Ubuntu.ttf');
+    format('typertype');
+}
+@font-face {
+    font-family: 'UbuntuBold';
+    src: url('../src/fonts/UbuntuBold.ttf');
+    format('typertype');
+}
+@font-face {
+    font-family: 'UbuntuBoldItalic';
+    src: url('../src/fonts/UbuntuBoldItalic.ttf');
+    format('typertype');
+}
+@font-face {
+    font-family: 'UbuntuItalic';
+    src: url('../src/fonts/UbuntuItalic.ttf');
+    format('typertype');
+}
+@font-face {
+    font-family: 'UbuntuLight';
+    src: url('../src/fonts/UbuntuLight.ttf');
+    format('typertype');
+}
+@font-face {
+    font-family: 'UbuntuLightItalic';
+    src: url('../src/fonts/UbuntuLightItalic.ttf');
+    format('typertype');
+}
+@font-face {
+    font-family: 'UbuntuMedium';
+    src: url('../src/fonts/UbuntuMedium.ttf');
+    format('typertype');
+}
+@font-face {
+    font-family: 'UbuntuMediumItalic';
+    src: url('../src/fonts/UbuntuMediumItalic.ttf');
+    format('typertype');
+}
