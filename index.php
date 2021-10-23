@@ -26,9 +26,7 @@
     <footer>
      <!-- START Bootstrap-Cookie-Alert -->
     <div class="alert text-center cookiealert" role="alert" style="font-size: 24px; font-family: arial; padding: 20px;">
-    <b>Do you like cookies?</b> &#x1F36A; We use cookies to ensure you, get the best experience on our website. <a href="information#cookie" target="_blank">Learn more</a><button type="button" style="border-radius: 8px; border: solid #7289da; background-color: #7289da; color: #fff;" class="btn btn-primary btn-sm acceptcookies">
-     I accept
-    </button>
+    <b>Do you like cookies?</b> &#x1F36A; We use cookies to ensure you to the best experience on our dashboard. <a href="information#cookie" target="_blank">Learn more</a><button type="button" style="border-radius: 8px; border: solid #7289da; background-color: #7289da; color: #fff;" class="btn btn-primary btn-sm acceptcookies">I accept</button>
     </div>
     <!-- END Bootstrap-Cookie-Alert -->
     <!-- Include cookiealert script -->
