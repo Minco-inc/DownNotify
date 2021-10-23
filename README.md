@@ -2,7 +2,7 @@
 Notify server down!
 ### Made by MincoMK
 
-# [`DownNotify UI/Dashboard`](https://github.com/Minco-inc/DownNotify/tree/ui)
+# [`DownNotify UI/Dashboard`](https://github.com/Minco-inc/DownNotifyUI/)
 Notify online, if server is down!
 ### Made by Hen2527
 
