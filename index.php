@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
+=======
+<?php
+    // connect heartbeat here
+?>
+>>>>>>> e3396b7033559ce578daed1e89990eea955d8828
 <html>
     <!-- External -->
     <link rel="stylesheet" href="css/style.css">
