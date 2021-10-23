@@ -1,10 +1,6 @@
 <?php
     // connect heartbeat here
 ?>
-
-<?php
-    include("src/php/log.php") // log their ip if they visited the page
-?>
 <html>
     <!-- External -->
     <link rel="stylesheet" href="src/css/style.css">
