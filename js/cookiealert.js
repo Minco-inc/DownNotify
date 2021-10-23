@@ -16,14 +16,14 @@
     cookieAlert.offsetHeight; // Force browser to trigger reflow (https://stackoverflow.com/a/39451131)
 
     // Show the alert if we cant find the "acceptCookies" cookie
-    if (!getCookie("dyzercookies")) {
+    if (!getCookie("AcceptCookies")) {
         cookieAlert.classList.add("show");
     }
 
     // When clicking on the agree button, create a 1 year
     // cookie to remember user's choice and close the banner
     acceptCookies.addEventListener("click", function () {
-        setCookie("dyzercookies", true, 365);
+        setCookie("AcceptCookies", true, 365);
         cookieAlert.classList.remove("show");
 
         // dispatch the accept event
