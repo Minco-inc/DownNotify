@@ -1,0 +1,112 @@
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	--theme-color: #218ff0;
+}
+
+html, body {
+	overflow-x: hidden;
+	touch-action: none;
+}
+
+body {
+	width: 100%;
+	padding: 25px;
+}
+
+.title {
+	text-align: center;
+	width: 100%;
+	font-size: 35px;
+}
+
+.wrap { /* title, input, button wrapper div */
+	width: 100%;
+}
+
+.login-input, .login {
+	width: 100%;
+	height: 45px;
+}
+
+.login-input {
+	padding-left: 35px;
+	border: 1px solid #f3f3f3;
+	/* box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1); */
+}
+
+.login-input:focus {
+	outline: none;
+	border: 1px solid var(--theme-color);
+}
+
+.login-input.up {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.login-input.down {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.login {
+	border: none;
+	color: white;
+	margin-top: 10px;
+	border-radius: 5px;
+	background: var(--theme-color);
+}
+
+::placeholder {
+	color: lightgray;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	color: #027bff;
+	text-decoration: none;
+}
+
+.register {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 10px;
+}
+
+.register a {
+	color: #dcdcdc;
+}
+
+.vr:after {
+	content: "|";
+	color: #f0f0f0;
+	font-size: 12px;
+}
+
+.fa-user, .fa-lock {
+	position: relative;
+	left: 10px;
+	color: lightgray;
+}
+
+.fa-user {
+	top: 32px;
+}
+
+.fa-lock {
+	bottom: 32px;
+}
+
+.err {
+	color: red;
+	position: relative;
+	right: 25px;
+}

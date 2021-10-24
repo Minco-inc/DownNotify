@@ -1,15 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 body {
-    background: #23272A;
-    color: #fff;
+    background: white;
+    color: black;
+	font-family: 'Roboto', sans-serif;
 }
-.form {
-    margin: 50px auto;
-    border-radius: 10px;
-    width: 500px;
-    padding: 30px 25px;
-    color: #fff;
-    background: #2C2F33;
-}
+
+/*
 h1.login-title {
     color: #666;
     color: #fff;
@@ -79,3 +76,4 @@ h3 {
     background-color: #616894;
     color: #fff;
 }
+*/
