@@ -1,0 +1,25 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+.header {
+	border: none;
+	width: 100%;
+	height: 100px;
+}
+
+.header.menu, header {
+	width: 100%;
+	height: 100vh;
+}
+
+.title {
+	font-size: 25px;
+	text-align: center;
+}
+
+.hb-table, .hb-table tr, .hb-table td {
+	width: 100%;
+	border-top: 1px solid black;
+}

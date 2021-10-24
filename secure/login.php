@@ -40,6 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 				$_SESSION['token'] = $account['token'];
 				$_SESSION['username'] = $account['username'];
 				$_SESSION['login'] = true;
+				header("Location: " . ($_GET['redirect'] ? $_GET['redirect'] : "../index.php"));
 			} else {
 				$err = true;
 				$errMsg = $emailOrPwd;
@@ -75,12 +76,12 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 			<button class="login" type="submit">Login</button>
 		</div>
 		<div class="register">
-			<a href="register.php">Register</a>
+			<a href="register.php?<?= '?redirect=' . $_GET['redirect'] | ''?>">Register</a>
 			<span class="vr"></span> 
 			<a href="forget.php">Forget password</a>
 		</div>
 	</form>
-	<script src="js/login.js"></script>
+	<script src="js/touch.js"></script>
 </body>
 </html>
 
